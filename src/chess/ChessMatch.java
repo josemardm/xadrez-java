@@ -11,9 +11,9 @@ public class ChessMatch {
     }
 
     //--------------------------------------------------------------------------------
-    public void chessPieces() {
-        ChessPiece[][] mat = new ChessPiece[board.getRows()][board.getColumns()];
-
-    }
+//    public  chessPiece[][] getPiece() {
+//        ChessPiece[][] mat = new ChessPiece[board.getRows()][board.getColumns()];
+//
+//    }
 }
 
