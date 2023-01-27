@@ -1,3 +1,7 @@
+/*
+A classe posição é da camada tabuleiro e representa uma possição no tabuleiro (linha e coluna)
+O metodo stValues() recebe uma nova linha e uma nova coluna para atribuir a posição
+ */
 package boardgame;
 
 public class Position {
@@ -5,15 +9,13 @@ public class Position {
     private int column;
 
     //--------------------------------------------------------------------------------
-    public Position() {
-    }
 
     public Position(int row, int column) {
         this.row = row;
         this.column = column;
     }
-    //--------------------------------------------------------------------------------
 
+    //--------------------------------------------------------------------------------
     public int getRow() {
         return row;
     }
@@ -29,8 +31,9 @@ public class Position {
     public void setColumn(int column) {
         this.column = column;
     }
+
     @Override
-    public  String toString(){
-        return row + ", " +  column;
+    public String toString() {
+        return row + ", " + column;
     }
 }
